@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./kennel.css";
 import AnimalCard from "./animal/animalCard";
+import AnimalLocation from "./animal/animalLocation";
+import AnimalEmployee from "./animal/animalEmployee";
 
 class Kennel extends Component {
   render() {
@@ -19,9 +21,15 @@ class Kennel extends Component {
           </address>
         </div>
         <div>
-            <AnimalCard />
-            <AnimalCard />
-            <AnimalCard />
+          <AnimalCard />
+          <AnimalLocation />
+          <AnimalEmployee />
+          <AnimalCard />
+          <AnimalLocation />
+          <AnimalEmployee />
+          <AnimalCard />
+          <AnimalLocation />
+          <AnimalEmployee />
         </div>
       </div>
     );

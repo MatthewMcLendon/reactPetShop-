@@ -1,11 +1,15 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
-class animalLocation extends Component {
-    render(){
-        return(
-            <div>
-                
-            </div>
-        )
-    }
+class AnimalLocation extends Component {
+  render() {
+    return (
+      <div>
+        <p>
+          Comfy in kennel <span className="kennel-number">1</span>
+        </p>
+      </div>
+    );
+  }
 }
+
+export default AnimalLocation;
